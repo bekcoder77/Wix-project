@@ -1,0 +1,32 @@
+
+/*! fotter  */
+
+.footer-links3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 20px;
+}
+.footer-links3 h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+.icon {
+ font-size: 16px;
+}
+
+.mysite{
+    margin-top: 10px;
+    font-weight: 50;
+}
+#wix{
+    width: 180px;
+    font-size: 14px;
+}
+@media(max-width:768px){
+  .footer-links3{
+    justify-content: center;
+    gap: 10px;
+  }
+}

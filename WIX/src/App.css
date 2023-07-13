@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App.night{
+  background-color: darkcyan;
+  color: white;
+}
+.App.night a{
+  color: white;
+}
+.App.night a:nth-child(2){
+  border: white;
+}
+.App.night a:hover div{
+  color: black;
+}
+.App.night h5{
+  display: none;
+}
+.App.night .submit:hover{
+  color: black;
+}
+
+
+/* ! scrollbar */
+body::-webkit-scrollbar {
+  width: 8px;
+  /* height:0px; */
+  /* background-color: transparent; */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: darkgray;
+  height: 10px;
+  border-radius: 0 0 20px 20px;
+  border-radius: 20px;
+}
+body::-webkit-scrollbar-track {
+  background: transparent;
+  /* box-shadow: 0 0 0 2px black; */
+  border-radius: 10px;
+}
